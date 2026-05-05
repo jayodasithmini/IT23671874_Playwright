@@ -1,0 +1,24 @@
+{
+  "name": "it23671874_playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation for Singlish to Sinhala transliteration testing - Assignment 1 for IT3040 ITPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "singlish",
+    "sinhala",
+    "transliteration",
+    "testing"
+  ],
+  "author": "IT23671874",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
